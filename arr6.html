@@ -1,0 +1,17 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            function String(input){
+                let  words=input.split(' ');
+                if(words.length>0){
+                   words.pop();
+                }
+                return words;
+            }
+            let word="This is Javascript";
+            let rees=String(word);
+            console.log(rees);
+        </script>
+    </body>
+</html>

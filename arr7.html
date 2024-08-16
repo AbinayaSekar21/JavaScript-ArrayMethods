@@ -1,0 +1,15 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+           function moveEnd(weeks){
+            let day=weeks.shift();
+            weeks.push(day);
+            return weeks;
+           }
+           let week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+           let res= moveEnd(week);
+          console.log(res);
+        </script>
+    </body>
+</html>
